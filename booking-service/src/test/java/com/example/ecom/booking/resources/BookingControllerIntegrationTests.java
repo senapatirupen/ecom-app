@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.example.ecom.booking.BookingApp;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.test.web.client.TestRestTemplate;
@@ -28,11 +29,13 @@ import static org.junit.Assert.*;
  * that Spring Boot uses.
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BookingApp.class, webEnvironment = WebEnvironment.RANDOM_PORT)
+@SpringBootTest(classes = BookingApp.class, webEnvironment = WebEnvironment.RANDOM_PORT,
+        properties = {"command.autorun.enabled=false"})
 public class BookingControllerIntegrationTests {
 
   //Required to Generate JSON content from Java objects
-  public static final ObjectMapper objectMapper = new ObjectMapper();
+  @Autowired
+  private ObjectMapper objectMapper;
   private final TestRestTemplate restTemplate = new TestRestTemplate();
   @LocalServerPort
   private int port;

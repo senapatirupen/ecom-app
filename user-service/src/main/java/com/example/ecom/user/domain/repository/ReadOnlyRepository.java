@@ -1,5 +1,6 @@
 package com.example.ecom.user.domain.repository;
 
+import com.example.ecom.user.common.UserNotFoundException;
 import java.util.Collection;
 
 /**
@@ -19,7 +20,7 @@ public interface ReadOnlyRepository<TE, T> {
   /**
    * @param id
    */
-  TE get(T id);
+  TE get(T id) throws UserNotFoundException;
 
   /**
    *

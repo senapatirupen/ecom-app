@@ -68,7 +68,7 @@ public class UserControllerIntegrationTests {
     assertNotNull(responseE);
 
     // Should return no content as there is no user with id 99
-    assertEquals(HttpStatus.NO_CONTENT, responseE.getStatusCode());
+    assertEquals(HttpStatus.NOT_FOUND, responseE.getStatusCode());
   }
 
   /**

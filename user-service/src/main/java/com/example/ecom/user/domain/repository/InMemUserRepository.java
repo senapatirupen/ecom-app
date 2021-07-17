@@ -71,8 +71,8 @@ public class InMemUserRepository implements UserRepository<User, String> {
    * @param entity
    */
   @Override
-  public void update(User entity) {
-    if (entities.containsKey(entity.getId())) {
+  public void update(String id, User entity) {
+    if (entities.containsKey(id)) {
       entities.put(entity.getId(), entity);
     }
   }
@@ -90,8 +90,13 @@ public class InMemUserRepository implements UserRepository<User, String> {
    * @param id
    */
   @Override
-  public User get(String id) {
-    return entities.get(id);
+  public User get(String id) throws UserNotFoundException {
+    User user = entities.get(id);
+    if (user == null) {
+      Object[] args = {id};
+      throw new UserNotFoundException("userNotFound", args);
+    }
+    return user;
   }
 
   /**

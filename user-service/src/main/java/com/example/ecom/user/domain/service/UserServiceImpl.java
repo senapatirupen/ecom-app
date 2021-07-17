@@ -55,8 +55,8 @@ public class UserServiceImpl extends BaseService<User, String>
    * @param user
    */
   @Override
-  public void update(User user) throws Exception {
-    userRepository.update(user);
+  public void update(String id, User user) throws Exception {
+    userRepository.update(id, user);
   }
 
   /**
@@ -71,7 +71,7 @@ public class UserServiceImpl extends BaseService<User, String>
    * @param id
    */
   @Override
-  public Entity findById(String id) throws Exception {
+  public User findById(String id) throws Exception {
     return userRepository.get(id);
   }
 

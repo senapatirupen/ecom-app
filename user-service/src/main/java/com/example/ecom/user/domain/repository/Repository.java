@@ -20,5 +20,5 @@ public interface Repository<TE, T> extends ReadOnlyRepository<TE, T> {
   /**
    * @param entity
    */
-  void update(TE entity);
+  void update(T id, TE entity);
 }

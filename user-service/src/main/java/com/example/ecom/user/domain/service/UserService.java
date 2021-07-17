@@ -13,14 +13,14 @@ import java.util.Map;
 public interface UserService {
 
   /**
-   * @param booking
+   * @param user
    */
-  public void add(User booking) throws Exception;
+  public void add(User user) throws Exception;
 
   /**
-   * @param booking
+   * @param user
    */
-  public void update(User booking) throws Exception;
+  public void update(String id, User user) throws Exception;
 
   /**
    * @param id
@@ -30,7 +30,7 @@ public interface UserService {
   /**
    * @param id
    */
-  public Entity findById(String id) throws Exception;
+  public User findById(String id) throws Exception;
 
   /**
    * @param name

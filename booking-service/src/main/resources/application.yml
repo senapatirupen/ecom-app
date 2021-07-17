@@ -4,6 +4,9 @@ spring:
     name: booking-service  # Service registers under this name
   messages:
     fallback-to-system-locale: false
+  output:
+    ansi:
+      enabled: ALWAYS
 
 # Discovery Server Access
 # Discovery Server Access
