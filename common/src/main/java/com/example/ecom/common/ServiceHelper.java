@@ -13,7 +13,7 @@ import java.net.URI;
 
 /**
  *
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 @Component
 public class ServiceHelper {

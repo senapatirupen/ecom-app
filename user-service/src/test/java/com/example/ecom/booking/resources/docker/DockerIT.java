@@ -2,7 +2,7 @@ package com.example.ecom.booking.resources.docker;
 
 /**
  *
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 public interface DockerIT {
     // Marker for Docker integratino Tests

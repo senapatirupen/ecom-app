@@ -13,7 +13,7 @@ import java.util.Collection;
 import java.util.logging.Logger;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 public abstract class AbstractRestaurantControllerTests {
 

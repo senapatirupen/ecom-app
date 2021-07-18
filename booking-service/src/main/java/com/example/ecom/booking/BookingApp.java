@@ -17,7 +17,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 @SpringBootApplication
 @EnableEurekaClient

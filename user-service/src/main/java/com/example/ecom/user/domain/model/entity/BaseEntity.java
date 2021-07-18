@@ -2,7 +2,7 @@ package com.example.ecom.user.domain.model.entity;
 
 /**
  * @param <T>
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 public abstract class BaseEntity<T> extends Entity<T> {
 

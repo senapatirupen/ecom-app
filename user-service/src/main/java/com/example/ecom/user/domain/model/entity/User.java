@@ -1,7 +1,7 @@
 package com.example.ecom.user.domain.model.entity;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 public class User extends BaseEntity<String> {
 

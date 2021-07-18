@@ -15,7 +15,7 @@
     <properties>
         <start-class>com.example.ecom.restaurant.RestaurantApp</start-class>
         <docker.registry.name>localhost:5000/</docker.registry.name>
-        <docker.repository.name>${docker.registry.name}sourabhh/${project.artifactId}</docker.repository.name>
+        <docker.repository.name>${docker.registry.name}rupens/${project.artifactId}</docker.repository.name>
         <docker.host.address>192.168.43.194</docker.host.address>
         <docker.port>8080</docker.port>
     </properties>
@@ -53,7 +53,7 @@
                             <alias>${project.artifactId}</alias>
                             <build>
                                 <from>openjdk:11-jre</from>
-                                <maintainer>sourabhh</maintainer>
+                                <maintainer>rupens</maintainer>
                                 <assembly>
                                     <descriptor>docker-assembly.xml</descriptor>
                                 </assembly>

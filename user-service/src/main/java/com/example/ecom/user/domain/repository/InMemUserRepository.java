@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import static java.util.stream.Collectors.toList;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 @Repository("userRepository")
 public class InMemUserRepository implements UserRepository<User, String> {

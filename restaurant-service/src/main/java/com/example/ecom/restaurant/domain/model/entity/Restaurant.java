@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 public class Restaurant extends BaseEntity<String> {
 

@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 public class Booking extends BaseEntity<String> {
 

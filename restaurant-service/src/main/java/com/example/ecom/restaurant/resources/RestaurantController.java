@@ -18,7 +18,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 @RestController
 @RequestMapping("/v1/restaurants")

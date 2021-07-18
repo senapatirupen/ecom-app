@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 public class RestaurantControllerTests extends AbstractRestaurantControllerTests {
 

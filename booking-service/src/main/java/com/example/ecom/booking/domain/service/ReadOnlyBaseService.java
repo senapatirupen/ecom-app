@@ -5,7 +5,7 @@ import com.example.ecom.booking.domain.repository.ReadOnlyRepository;
 /**
  * @param <TE>
  * @param <T>
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 public abstract class ReadOnlyBaseService<TE, T> {
 

@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 /**
  *
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 @Category(DockerIT.class)
 public class BookingAppDockerIT {

@@ -3,7 +3,7 @@ package com.example.ecom.user.domain.repository;
 /**
  * @param <TE>
  * @param <T>
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 public interface Repository<TE, T> extends ReadOnlyRepository<TE, T> {
 

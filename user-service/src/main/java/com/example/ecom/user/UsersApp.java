@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 @SpringBootApplication
 @EnableEurekaClient

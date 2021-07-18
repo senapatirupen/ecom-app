@@ -1,7 +1,7 @@
 package com.example.ecom.user.domain.valueobject;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 public class UserVO {
 

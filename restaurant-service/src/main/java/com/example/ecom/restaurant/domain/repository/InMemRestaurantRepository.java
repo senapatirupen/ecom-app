@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 /**
- * @author Sourabh Sharma
+ * @author Rupen Senapati
  */
 @Repository("restaurantRepository")
 public class InMemRestaurantRepository implements RestaurantRepository<Restaurant, String> {

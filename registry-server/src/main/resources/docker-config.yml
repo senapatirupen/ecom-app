@@ -1,5 +1,5 @@
 FROM openjdk:11-jre
-MAINTAINER sourabhh
+MAINTAINER rupens
 EXPOSE 8761
 COPY maven /maven/
 CMD java -Dspring.profiles.active="docker" -jar \
